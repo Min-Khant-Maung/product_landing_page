@@ -1,0 +1,181 @@
+html{
+    font-family: 'Mulish', sans-serif;
+    background-color: #eee;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color:#ddd;
+    z-index: 99;
+}
+
+#product_logo{
+    display: flex;
+    padding: 20px;
+}
+
+#product_logo img{
+    width: 300px;
+    align-self: center;
+}
+
+#links{
+    justify-self: flex-end;
+    padding: 20px;
+}
+
+#links ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 15px;
+    font-size: 17px;
+}
+
+#links li{
+    margin-right:30px ;
+}
+
+#links a{
+    text-decoration: none;
+    color: black;
+}
+
+#email_booking{
+    margin-top:10%;
+    text-align: center;
+}
+
+#email_booking input{
+    padding: 5px;
+    width: 250px;
+}
+
+#email_booking button{
+    margin-top: 15px;
+    background-color: yellow;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    width: 170px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#features{
+    padding-top: 100px;
+}
+
+.feature{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+}
+
+.feature_logo{
+    padding: 2%;
+}
+
+.feature_logo img{
+    width: 60px;
+}
+
+.feature_desc{
+    padding: 2%;
+    width: 80%;
+}
+
+.feature_desc h1{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.feature_desc p{
+    font-size: 14px;
+}
+
+#add_video{
+    text-align: center;
+}
+
+#pricing_cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding:0 150px;
+    margin-top: 60px;
+}
+
+.pricing_card{
+    width: 35%;
+    text-align: center;
+    border: 1px solid black;
+    margin: 15px;
+    padding-bottom: 15px;
+}
+
+.pricing_card .pricing_header{
+    background-color: #ddd;
+    font-weight: bolder;
+    width: 100%;
+    padding: 10px 0;
+    margin-top:0;
+}
+
+.pricing_card #select{
+    border: none;
+    padding:10px 23px;
+    background-color: yellow;
+    transition: 1s;
+    border-radius: 3px;
+}
+
+.pricing_card #select:hover{
+    cursor: pointer;
+    background-color: yellowgreen;
+}
+
+#goback_top{
+    width: 100%;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+#goback_top #first{
+    padding-top: 5px;
+}
+
+#goback_top #first ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0;
+}
+
+#goback_top #first ul li{
+    padding-right: 30px;
+}
+
+#goback_top #first a{
+    text-decoration: none;
+    color: black;
+}
+
+#goback_top #last{
+    padding: 0 20px 5px 0;
+}
+
+#last p{
+    margin-top: 5px;
+}
